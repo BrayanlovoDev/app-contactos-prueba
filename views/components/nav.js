@@ -160,7 +160,7 @@ navBtn.addEventListener('click', e => {
 });
 
 const btnDeletEscri = navbar.children[0].children[2].children[0];
-const btnDeletMobil = navbar.children[0].children[2].children[0];
+const btnDeletMobil = navbar.children[0].children[3].children[0];
 
 btnDeletEscri.addEventListener('click', async e => {
   try {
