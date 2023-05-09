@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="h-14 bg-gradient-to-r from-violet-400 to-fuchsia-500">
+
+    <nav id="navbar" class="fixed top-0 right-0 left-0 bg-transparent h-16">
+    </nav>
+
+    <div class="flex-col pt-16 h-screen flex gap-4 max-w-7xl mx-auto justify-center items-center px-4">
+        
+
+        <form id="form" class="max-sm:p-8 flex flex-col gap-4 p-8 rounded-lg text-md bg-violet-500/60 shadow-lg lg:w-2/4">
+        <!-- Form de Agregar Contactos -->
+            <div id="Contenedor-agg" class="flex flex-col gap-3">
+                <h1 id="Titulo">Agenda de Contactos</h1>
+                <input required type="text" name="Nombre" id="Nombre-contacto" placeholder="Nombre" 
+                class="rounded-lg p-2 bg-violet-400/40 focus:outline-zinc-50 placeholder:text-zinc-600">
+                <input required type="text" name="numero de tlf" id="Numero-tlf" placeholder="Numero de Telefono"
+                class="rounded-lg p-2 bg-violet-400/40 focus:outline-zinc-50 placeholder:text-zinc-600">
+                <input type="email" name="email" id="Correo" placeholder="Email"
+                class="rounded-lg p-2 bg-violet-400/40 focus:outline-zinc-50 placeholder:text-zinc-600">
+    
+                <button id="Boton-agg" type="submit" class="border-double border-4 font-bold border-blue-50 text-black hover:shadow-lg hover:shadow-cyan-500 hover:bg-zinc-300 py-2 px-4 rounded-lg transition-all ease-in-out">Agregar Contactos</button>
+            </div>
+        </form>
+
+        <div id="container" class="lg:flex w-3/4 justify-center items-center rounded-lg bg-violet-500/60 shadow-lg h-60 overflow-scroll overflow-x-hidden">
+        <ul id="lista-contactos" class="flex flex-col justify-center items-center gap-2 m-0 mt-2  pl-4 pr-4">
+
+            
+              
+       </ul>  
+        </div>
+    </div>
+      
+
+
+    
+    <script src="/components/nav.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

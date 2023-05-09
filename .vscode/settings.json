@@ -1,0 +1,8 @@
+{
+  "zenMode.hideActivityBar": true,
+  "screencastMode.hideSingleEditorCursorMoves": true,
+  "zenMode.centerLayout": true,
+  "zenMode.restore": false,
+  "zenMode.silentNotifications": true,
+  "zenMode.hideTabs": false
+}
